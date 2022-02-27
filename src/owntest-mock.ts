@@ -7,7 +7,7 @@ let owntestMocks: any = {
 }
 
 // exporting the mock to be used in any test file
-export default function owntestMock() {
+export default function owntestMock(): typeof owntestMocks {
     return owntestMocks
 }
 
